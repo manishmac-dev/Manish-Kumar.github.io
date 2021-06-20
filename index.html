@@ -36,6 +36,7 @@
       justify-content: space-around;
     }
     .imgbox img{
+
       width: 45%;
       height: 26rem;
     }
@@ -52,6 +53,52 @@
 .home-area .fixed-wrapper .fixed-block {
     bottom: 120px;
   }
+  @media screen and (max-width: 1000px){
+      .imgbox img{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 600px){
+    .logon{
+      font-size: 2rem;
+    }
+    .imgbox{
+      flex-direction: column;
+    }
+    label{
+      flex-direction: column;
+    }
+    label h1{
+      font-size: 2rem;
+    }
+        label button{
+      width: 50%;
+      
+    }
+  }
+  @media screen and (max-width: 400px){
+    .logon{
+      font-size: 1.6rem;
+    }
+        label h1{
+      font-size: 1.8rem;
+    }
+    label button{
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 330px){
+    .logon{
+      font-size: 1.3rem;
+    }
+        label h1{
+      font-size: 1.4rem;
+    }
+        label button{
+      width: 50%;
+    }
+  }
+
     </style>
 </head>
 
@@ -66,7 +113,7 @@
   <!-- Navbar-->
   <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="#home-area"></a>
       <!-- Navbar Logo-->
-      <h1>Manish Kumar</h1>
+      <h1 class="logon">Manish Kumar</h1>
     <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span class="btn-line"></span></span>
     <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
       <!-- Navbar menu-->
@@ -136,12 +183,12 @@
                     <h2 class="content-subtitle">Who am i?</h2>
                     <h6 class="content-title">I'm manish , a Web Developer</h6>
                     <div class="content-description">
-                      <p>I am a freelancer based in the India and i have been building noteworthy websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+                      <p>I am a freelancer based in the India and i have been building noteworthy websites , which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
                     </div>
                     <address class="content-info">
                       <div class="row">
                         <div class="col-12 col-md-6 single-info"><span>Name:</span>
-                          <p>MAnish Kumar</p>
+                          <p>Manish Kumar</p>
                         </div>
                         <div class="col-12 col-md-6 single-info"><span>Email:</span>
                           <p><a href="mailto:mkrg102@gmail.com">mkrg102@gmail.com</a></p>
