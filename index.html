@@ -455,7 +455,7 @@
 
                <!--Update the URL for thank you page on form submit -->
 
-                  <form action="mail.php" class="contact-form" id="contact-form"  target="hidden_iframe" method="POST" onsubmit="return  validateForm();">
+                  <form action="https://formsubmit.co/mkrg102@gmail.com" method="POST" onsubmit="return  validateForm();">
                     <h4 class="content-title">Message Me</h4>
                     <div class="row">
                       <div class="col-12 col-md-6 form-group">
@@ -465,12 +465,17 @@
             <label for="form-name">Your name</label>
             <span id="nameerror" style="color:red;" class="errorl"></span>
           </div></div>
+
+                    <input type="hidden" name="_subject" value="New submission!">
+
                       <div class="col-12 col-md-6 form-group"><div class="md-form">
             <i class="fas fa-envelope prefix grey-text"></i>
             <input type="text" id="form-email" class="form-control" name="email">
             <label for="form-email">Your email</label>
             <span id="emailerror" class="errorl" style="color:red;"></span>
           </div></div>
+
+          <input type="hidden" name="_autoresponse" value="your custom message">
                       <div class="col-12 form-group"><div class="md-form">
             <i class="fas fa-phone prefix grey-text"></i>
             <input type="text" id="form-phone" class="form-control" name="phone">
